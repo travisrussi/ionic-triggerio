@@ -1,0 +1,106 @@
+@import "page-transitions.less";
+
+.pt-page-ontop {
+  z-index: 999;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-moz-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.fadeIn {
+  -webkit-animation: fadeIn .4s ease both;
+  -moz-animation: fadeIn .4s ease both;
+  animation: fadeIn .4s ease both;
+}
+.fadeInDelay {
+  .fadeIn;
+  .pt-page-delay1000;
+}
+
+
+// glueTopFromBottom
+// outClass = 'pt-page-rotateTopSideFirst';
+// inClass = 'pt-page-moveFromTop pt-page-delay200 pt-page-ontop';
+.mb-glueTopFromBottom {
+  &.mb-out {
+    .pt-page-rotateTopSideFirst;
+  }
+  &.mb-in {
+    .pt-page-moveFromTop;
+    .pt-page-delay200;
+    .pt-page-ontop;
+  }
+}
+
+// glueBottomFromTop
+// outClass = 'pt-page-rotateBottomSideFirst';
+// inClass = 'pt-page-moveFromBottom pt-page-delay200 pt-page-ontop';
+.mb-glueBottomFromTop {
+  &.mb-out {
+    .pt-page-rotateBottomSideFirst;
+  }
+  &.mb-in {
+    .pt-page-moveFromBottom;
+    .pt-page-delay200;
+    .pt-page-ontop;
+  }
+}
+
+// pushTopFromBottom
+// outClass = 'pt-page-rotatePushTop';
+// inClass = 'pt-page-moveFromBottom';
+.mb-pushTopFromBottom {
+  &.mb-out {
+    .pt-page-rotatePushTop;
+  }
+  &.mb-in {
+    .pt-page-moveFromBottom;
+  }
+}
+
+// cubeToLeft
+// outClass = 'pt-page-rotateCubeLeftOut pt-page-ontop';
+// inClass = 'pt-page-rotateCubeLeftIn';
+.mb-cubeToLeft {
+  &.mb-out {
+    .pt-page-rotateCubeLeftOut;
+    .pt-page-ontop;
+  }
+  &.mb-in {
+    .pt-page-rotateCubeLeftIn;
+  }
+}
+
+// slideInFromRight
+// outClass = 'pt-page-moveToleft'
+// inClass = 'pt-page-moveFromRight'
+.mb-slideInFromRight {
+  &.mb-out {
+    .pt-page-moveToLeft;
+  }
+  &.mb-in {
+    .pt-page-moveFromRight;
+  }
+}
+
+// slideInFromLeft
+// outClass = 'pt-page-moveToRight'
+// inClass = 'pt-page-moveFromLeft'
+.mb-slideInFromLeft {
+  &.mb-out {
+    .pt-page-moveToRight;
+  }
+  &.mb-in {
+    .pt-page-moveFromLeft;
+  }
+}
+

@@ -1,0 +1,34 @@
+<div class="content content-main">
+
+  <div class="content-title">
+    <h1>
+      <span>Workout timer</span>
+      <strong>{{workout.duration / 60 | numberAsText}}</strong> Minute
+    </h1>
+  </div>
+
+  <div class="config-menu fadeInDelay">
+    <a class="btn-icon btn-minus" ng-click="minus()"><i class="icon-minus"></i></a>
+    <a class="btn-icon btn-plus" ng-click="plus()"><i class="icon-plus"></i></a>
+  </div>
+
+  <div class="pagination-centered fadeIn pt-page-delay1000">
+    <button type="button" class="button pagination-centered" ng-disabled="countdown" ng-show="!countdown" ng-click="start()">Start</button>
+  </div>
+
+  <div class="timer" ng-show="countdown">
+    <span>{{timer}}</span>
+  </div>
+
+  <div style="overflow:hidden;position:absolute;top:0;left:0;width:100%;height:100%;">
+  <div style="overflow:auto">
+  <ul>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat aliquam nibh, nec rhoncus lacus auctor ac. Ut interdum urna arcu, ut aliquam risus consequat in. Vestibulum ornare augue erat, eu congue lectus pretium a. Donec at nisi massa. Quisque nec ante mollis, commodo orci vitae, blandit purus. Aliquam ac nibh consequat, congue elit et, molestie quam. Maecenas a mollis risus. Integer vel nunc augue. Cras enim dui, mattis et tempus sed, blandit et erat. Fusce eu dui mollis eros tristique interdum.</li>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat aliquam nibh, nec rhoncus lacus auctor ac. Ut interdum urna arcu, ut aliquam risus consequat in. Vestibulum ornare augue erat, eu congue lectus pretium a. Donec at nisi massa. Quisque nec ante mollis, commodo orci vitae, blandit purus. Aliquam ac nibh consequat, congue elit et, molestie quam. Maecenas a mollis risus. Integer vel nunc augue. Cras enim dui, mattis et tempus sed, blandit et erat. Fusce eu dui mollis eros tristique interdum.</li>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat aliquam nibh, nec rhoncus lacus auctor ac. Ut interdum urna arcu, ut aliquam risus consequat in. Vestibulum ornare augue erat, eu congue lectus pretium a. Donec at nisi massa. Quisque nec ante mollis, commodo orci vitae, blandit purus. Aliquam ac nibh consequat, congue elit et, molestie quam. Maecenas a mollis risus. Integer vel nunc augue. Cras enim dui, mattis et tempus sed, blandit et erat. Fusce eu dui mollis eros tristique interdum.</li>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat aliquam nibh, nec rhoncus lacus auctor ac. Ut interdum urna arcu, ut aliquam risus consequat in. Vestibulum ornare augue erat, eu congue lectus pretium a. Donec at nisi massa. Quisque nec ante mollis, commodo orci vitae, blandit purus. Aliquam ac nibh consequat, congue elit et, molestie quam. Maecenas a mollis risus. Integer vel nunc augue. Cras enim dui, mattis et tempus sed, blandit et erat. Fusce eu dui mollis eros tristique interdum.</li>
+  </ul>
+  </div>
+  </div>
+
+</div>

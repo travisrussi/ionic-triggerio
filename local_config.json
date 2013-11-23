@@ -1,0 +1,19 @@
+{
+	"general": {},
+	"ios": {
+		"profiles": {
+			"DEFAULT": {
+				"provisioning_profile": "/Users/travisrussi/Sites/ionic-triggerio/Ionic_Demo.mobileprovision"
+			}
+		},
+		"simulatorsdk": "7.0",
+		"simulatorfamily": "iphone"
+	},
+	"android": {
+		"profiles": {
+			"DEFAULT": {}
+		},
+		"sdk": "/Applications/android-sdk-macosx/",
+		"device": "emulator-5554"
+	}
+}

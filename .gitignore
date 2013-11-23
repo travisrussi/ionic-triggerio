@@ -1,0 +1,11 @@
+.DS_Store
+.tmp
+.template
+*.sublime-project
+*.sublime-workspace
+*.mobileprovision
+node_modules
+app/components
+src
+development
+release

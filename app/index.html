@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ionic Seed</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <script type="text/javascript">
+
+      if (typeof(forge) === "undefined")
+        forge = {};
+        
+      forge.logging = forge.logging || {};
+      forge.logging.log = forge.logging.log || function() {};
+    </script>
+
+    
+    <script type="text/javascript">
+      if (typeof(forge) !== "undefined" && forge.enableDebug) {
+        //forge.enableDebug();
+      }
+    </script>
+
+    <!-- https://trigger.io/catalyst/client/#1FF37970-9C77-406C-B774-298C63DAE5A6 -->
+    <script src="https://trigger.io/catalyst/target/target-script-min.js#1FF37970-9C77-406C-B774-298C63DAE5A6"></script>
+    
+
+    <link rel="stylesheet" href="css/ionic.css">
+
+    <!-- our app css -->
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- build:js js/libs.js -->
+    <script src="js/ionic.js"></script>
+    <script src="js/ionic-angular.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js js/scripts.js -->
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    <!-- endbuild -->
+
+  </head>
+
+  <body ng-app="starter">
+    
+
+  <side-menus>
+    <!-- Center content -->
+    <!-- Our navigation router with some animations set -->
+    <pane nav-router animation="slide-left-right-ios7" side-menu-content>
+      <!-- The nav bar that will be updated as we navigate -->
+      <nav-bar class="nav-title-slide-ios7" type="bar-positive" back-button-type="button-icon" back-button-icon="icon ion-arrow-left-c"></nav-bar>
+
+      <!-- where the content of each page will be rendered -->
+      <ng-view></ng-view>
+    </pane>
+
+    <!-- Left menu -->
+    <side-menu side="left">
+      <header class="bar bar-header bar-dark">
+        <h1 class="title">Left</h1>
+      </header>
+    </side-menu>
+
+    <!-- Right menu
+    <side-menu side="right">
+    </side-menu> -->
+
+  </side-menus>
+
+
+  </body>
+</html>
