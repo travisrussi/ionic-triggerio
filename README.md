@@ -14,6 +14,7 @@ of great solutions that work well for websites, like [jQuery Mobile](http://jque
 Ionic is also not a good solution if you need to support older generation devices. Our compatibility *starts* at iOS 6 and Android 4.1. We will never support versions earlier than those. This is a framework for the future.
 
 [Ionic Components](http://ionicframework.com/docs/components/)
+
 [Ionic AngularJS Extensions](http://ionicframework.com/docs/angularjs/)
 
 ### Ionic Framework Authors
