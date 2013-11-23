@@ -50,7 +50,7 @@ Ionic is licensed under the MIT Open Source license. For more information, see t
 
  
 
-### Authors (for Trigger.IO implementation of Ionic Framework)
+### Author (for Trigger.IO implementation of Ionic Framework)
 
 **Travis Russi**
 
