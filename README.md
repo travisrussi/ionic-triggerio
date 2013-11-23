@@ -14,10 +14,9 @@ of great solutions that work well for websites, like [jQuery Mobile](http://jque
 Ionic is also not a good solution if you need to support older generation devices. Our compatibility *starts* at iOS 6 and Android 4.1. We will never support versions earlier than those. This is a framework for the future.
 
 [Ionic Components](http://ionicframework.com/docs/components/)
-
 [Ionic AngularJS Extensions](http://ionicframework.com/docs/angularjs/)
 
-### Authors (for Ionic Framework)
+### Ionic Framework Authors
 
 **Max Lynch**
 
@@ -34,7 +33,7 @@ Ionic is also not a good solution if you need to support older generation device
 + <https://twitter.com/adamdbradley>
 + <https://github.com/adamdbradley>
 
-### LICENSE
+### Ionic Framework License
 
 Ionic is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
 
