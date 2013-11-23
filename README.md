@@ -2,7 +2,7 @@ Ionic Framework on Trigger.IO
 ===============
 
 
-# Ionic Framework
+## Ionic Framework
 
 [Ionic](https://github.com/driftyco/ionic) is the open source HTML5 Mobile Framework for building amazing, cross-platform native apps with HTML, JavaScript, and CSS.
 
@@ -17,7 +17,7 @@ Ionic is also not a good solution if you need to support older generation device
 
 [Ionic AngularJS Extensions](http://ionicframework.com/docs/angularjs/)
 
-## Authors (for Ionic Framework)
+### Authors (for Ionic Framework)
 
 **Max Lynch**
 
@@ -34,11 +34,11 @@ Ionic is also not a good solution if you need to support older generation device
 + <https://twitter.com/adamdbradley>
 + <https://github.com/adamdbradley>
 
-## LICENSE
+### LICENSE
 
 Ionic is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
 
-# Trigger.IO
+## Trigger.IO
 
 [Trigger.IO](http://www.trigger.io) is the simplest way to build amazing mobile apps.
  
@@ -50,7 +50,7 @@ Ionic is licensed under the MIT Open Source license. For more information, see t
 
  
 
-## Authors (for Trigger.IO implementation of Ionic Framework)
+### Authors (for Trigger.IO implementation of Ionic Framework)
 
 **Travis Russi**
 
